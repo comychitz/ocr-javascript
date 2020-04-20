@@ -1,0 +1,23 @@
+{
+  "name": "jeopardy",
+  "version": "1.0.0",
+  "description": "A utility that generates a report of the breakdown of a jeopardy episode. The report outlines which questions were asked, who answered correctly, and winnings of each player.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comychitz/jeopardy-report.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comychitz/jeopardy-report/issues"
+  },
+  "homepage": "https://github.com/comychitz/jeopardy-report#readme",
+  "dependencies": {
+    "nodemon": "^2.0.3",
+    "tesseract.js": "^2.1.1"
+  }
+}

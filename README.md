@@ -9,6 +9,4 @@ npm install
 npm start
 ```
 
-## setup
-
-npm install ejs express multer tesseract.js
+Navigate to `http://localhost:4444/` in the browser of your choice.

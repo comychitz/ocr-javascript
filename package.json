@@ -1,23 +1,24 @@
 {
-  "name": "jeopardy",
+  "name": "ocr-javascript",
   "version": "1.0.0",
-  "description": "A utility that generates a report of the breakdown of a jeopardy episode. The report outlines which questions were asked, who answered correctly, and winnings of each player.",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/comychitz/jeopardy-report.git"
+    "url": "git+https://github.com/comychitz/ocr-javascript.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/comychitz/jeopardy-report/issues"
-  },
-  "homepage": "https://github.com/comychitz/jeopardy-report#readme",
   "dependencies": {
-    "nodemon": "^2.0.3",
-    "tesseract.js": "^2.1.1"
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "tesseract.js": "^2.0.0-beta.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }

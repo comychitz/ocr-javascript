@@ -8,3 +8,7 @@ npm install
 ```
 npm start
 ```
+
+## setup
+
+npm install ejs express multer tesseract.js
